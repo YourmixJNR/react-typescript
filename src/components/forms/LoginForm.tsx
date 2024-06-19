@@ -17,12 +17,12 @@ const LoginForm = () => {
 
   return (
     <>
-      <nav className="fixed py-[25px] px-[60px] z-[1]">
+      <nav className="fixed p-[20px] z-[1] md:py-[25px] md:px-[60px]">
         <a href="#">
           <img src={Logo} alt="logo" className="w-[140px] md:w-[167px]" />
         </a>
       </nav>
-      <div className="absolute left-1/2 top-[43%] text-white rounded p-[60px] w-[450px] transform -translate-x-1/2 -translate-y-1/2 bg-bgColor md:p-[70px] md:top-1/2">
+      <div className="w-full max-w-[450px] absolute left-1/2 top-[43%] text-white rounded p-[20px] transform -translate-x-1/2 -translate-y-1/2 bg-bgColor md:top-1/2 md:p-[70px]">
         <h2 className="text-white text-[2rem] font-bold">Sign In</h2>
         <form action="" className="mt-[10px] mx-[0px] mb-[50px]">
           <div className="h-[50px] relative mb-[16px]">
