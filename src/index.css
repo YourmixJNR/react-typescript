@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .input-field:focus ~ .input-label,
+    .input-field:valid ~ .input-label {
+        @apply text-xs transform -translate-y-[130%];
+    }
+}
